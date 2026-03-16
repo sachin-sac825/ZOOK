@@ -1,0 +1,14 @@
+
+> dashboard@0.0.0 build
+> tsc -b && vite build
+
+src/pages/dashboard/_components/camera-feed.tsx(2,49): error TS6133: 'Zap' is declared but its value is never read.
+src/pages/dashboard/_components/camera-feed.tsx(2,65): error TS6133: 'Wifi' is declared but its value is never read.
+src/pages/dashboard/_components/camera-monitoring.tsx(6,8): error TS2307: Cannot find module '@/components/ui/dialog.tsx' or its corresponding type declarations.
+src/pages/dashboard/_components/camera-monitoring.tsx(226,53): error TS7006: Parameter 'open' implicitly has an 'any' type.
+src/pages/dashboard/_components/incident-alerts.tsx(4,32): error TS6133: 'Car' is declared but its value is never read.
+src/pages/dashboard/_components/traffic-reports.tsx(34,3): error TS6133: 'cameras' is declared but its value is never read.
+src/pages/dashboard/_components/traffic-reports.tsx(36,3): error TS6133: 'zoneSummaries' is declared but its value is never read.
+src/pages/dashboard/_components/traffic-reports.tsx(37,3): error TS6133: 'hourlyFlow' is declared but its value is never read.
+src/pages/dashboard/_components/traffic-reports.tsx(38,3): error TS6133: 'vehicleDistribution' is declared but its value is never read.
+src/pages/dashboard/_components/traffic-reports.tsx(40,3): error TS6133: 'lastUpdated' is declared but its value is never read.

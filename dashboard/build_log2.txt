@@ -1,0 +1,5 @@
+
+> dashboard@0.0.0 build
+> tsc -b && vite build
+
+src/pages/dashboard/_components/camera-monitoring.tsx(6,8): error TS2307: Cannot find module '@/components/ui/dialog' or its corresponding type declarations.

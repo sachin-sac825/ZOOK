@@ -1,0 +1,53 @@
+
+> dashboard@0.0.0 build
+> tsc -b && vite build
+
+[36mvite v8.0.0 [32mbuilding client environment for production...[36m[39m
+[2Ktransforming...✓ 3263 modules transformed.
+rendering chunks...
+[33m[lightningcss minify] Unknown at rule: @tailwind
+1  |  @tailwind base;
+   |           ^
+2  |  @tailwind components;
+3  |  @tailwind utilities;[39m
+[33m[lightningcss minify] Unknown at rule: @tailwind
+1  |  @tailwind base;
+2  |  @tailwind components;
+   |           ^
+3  |  @tailwind utilities;
+4  |  [39m
+[33m[lightningcss minify] Unknown at rule: @tailwind
+1  |  @tailwind base;
+2  |  @tailwind components;
+3  |  @tailwind utilities;
+   |           ^
+4  |  
+5  |  @layer base {[39m
+[33m[lightningcss minify] Unknown at rule: @apply
+30 |  @layer base {
+31 |    * {
+32 |      @apply border-border;
+   |            ^
+33 |    }
+34 |    body {[39m
+[33m[lightningcss minify] Unknown at rule: @apply
+33 |    }
+34 |    body {
+35 |      @apply bg-background text-foreground;
+   |            ^
+36 |      font-feature-settings: "rlig" 1, "calt" 1;
+37 |    }[39m
+computing gzip size...
+dist/index.html                          0.45 kB │ gzip:   0.29 kB
+dist/assets/index-xhzLWds0.css           0.69 kB │ gzip:   0.30 kB
+dist/assets/purify.es-y41lKIN9.js       21.03 kB │ gzip:   8.47 kB
+dist/assets/index.es-BR3FW6X5.js       151.17 kB │ gzip:  48.80 kB
+dist/assets/html2canvas-DojrN9FT.js    199.57 kB │ gzip:  46.78 kB
+dist/assets/index-BPyz8H2M.js        1,324.03 kB │ gzip: 407.15 kB
+
+[32m✓ built in 1.17s[39m
+[33m[plugin builtin:vite-reporter] 
+(!) Some chunks are larger than 500 kB after minification. Consider:
+- Using dynamic import() to code-split the application
+- Use build.rolldownOptions.output.codeSplitting to improve chunking: https://rolldown.rs/reference/OutputOptions.codeSplitting
+- Adjust chunk size limit for this warning via build.chunkSizeWarningLimit.[39m

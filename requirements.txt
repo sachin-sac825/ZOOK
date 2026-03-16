@@ -1,9 +1,0 @@
-opencv-python
-ultralytics
-numpy
-pandas
-streamlit
-fastapi
-uvicorn
-matplotlib
-scikit-learn
